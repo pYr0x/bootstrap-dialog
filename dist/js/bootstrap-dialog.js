@@ -40,7 +40,7 @@
      * ================================================ */
     var Modal = $.fn.modal.Constructor;
     var BootstrapDialogModal = function(element, options) {
-        if (/4\.0\.\d+/.test($.fn.modal.Constructor.VERSION)) {
+        if (/4\.0\.\d+(-(alpha|beta|rc)\.\d+)?/.test($.fn.modal.Constructor.VERSION)) {
             return new Modal(element, options);
         } else {
             Modal.call(this, element, options);
@@ -54,7 +54,7 @@
             version = 'v3.2';
         } else if (/3\.3\.[1,2]/.test($.fn.modal.Constructor.VERSION)) {
             version = 'v3.3';  // v3.3.1, v3.3.2
-        } else if (/4\.0\.\d+/.test($.fn.modal.Constructor.VERSION)) {
+        } else if (/4\.0\.\d+(-(alpha|beta|rc)\.\d+)?/.test($.fn.modal.Constructor.VERSION)) {
             version = 'v4.0';
         } else {
             version = 'v3.3.4';
