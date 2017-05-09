@@ -20,8 +20,10 @@
     "url": "https://github.com/nakupanda/bootstrap3-dialog/issues"
   },
   "homepage": "http://nakupanda.github.io/bootstrap3-dialog",
-  "devDependencies": {
+  "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
+  },
+  "devDependencies": {
     "eslint": ">=0.6.2",
     "gulp": ">=3.8.1",
     "gulp-clean": ">=0.3.0",
