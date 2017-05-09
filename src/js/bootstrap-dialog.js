@@ -616,7 +616,7 @@
         updateTitle: function () {
             if (this.isRealized()) {
                 var title = this.getTitle() !== null ? this.createDynamicContent(this.getTitle()) : this.getDefaultText();
-                this.getModalHeader().find('.' + this.getNamespace('title')).html('').append(title).prop('id', this.getId() + '_title');
+                this.getModalHeader().find('.' + this.getNamespace('title') + ' > h5').html('').append(title).prop('id', this.getId() + '_title');
             }
 
             return this;
@@ -789,9 +789,11 @@
             return $container;
         },
         createTitleContent: function () {
+            var $h5 = $('<h5>').addClass('modal-title');
             var $title = $('<div></div>');
             $title.addClass(this.getNamespace('title'));
 
+            $title.append($h5);
             return $title;
         },
         createCloseButton: function () {
