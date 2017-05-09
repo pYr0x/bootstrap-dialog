@@ -21,7 +21,7 @@
   },
   "homepage": "http://nakupanda.github.io/bootstrap3-dialog",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap": "^4.0.0-alpha.6"
   },
   "devDependencies": {
     "eslint": ">=0.6.2",
