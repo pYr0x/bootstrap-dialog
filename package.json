@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-dialog",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Make use of Bootstrap Modal more monkey-friendly.",
   "directories": {
     "example": "examples"
@@ -21,7 +21,7 @@
   },
   "homepage": "http://nakupanda.github.io/bootstrap3-dialog",
   "dependencies": {
-    "bootstrap": "^4.0.0-beta.2"
+    "bootstrap": "4.0.0-alpha.6"
   },
   "devDependencies": {
     "eslint": "^4.11.0"
