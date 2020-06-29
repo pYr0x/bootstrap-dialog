@@ -335,7 +335,7 @@ BootstrapDialog.METHODS_TO_OVERRIDE['v3.2'] = {
 };
 BootstrapDialog.METHODS_TO_OVERRIDE['v3.3'] = {};
 BootstrapDialog.METHODS_TO_OVERRIDE['v3.3.4'] = $.extend({}, BootstrapDialog.METHODS_TO_OVERRIDE['v3.1']);
-BootstrapDialog.METHODS_TO_OVERRIDE['v4.0'] = {
+BootstrapDialog.METHODS_TO_OVERRIDE['v4.x'] = {
   getModalBackdrop: function ($modal) {
     return $($modal.data('bs.modal')._backdrop);
   },
